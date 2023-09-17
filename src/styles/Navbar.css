@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    background: #36454F;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+nav a {
+    font-family: 'Manrope', sans-serif;
+    color: whitesmoke;
+} 
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 5%;
+}
+
+nav li {
+    display: inline-block;
+    color: whitesmoke;   
+}
