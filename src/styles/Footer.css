@@ -13,3 +13,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+#github {
+    padding-right: 10px;
+}
+
+#linkedIn {
+    padding-right: 10px;
+}
+
