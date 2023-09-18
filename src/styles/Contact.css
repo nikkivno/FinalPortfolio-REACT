@@ -6,25 +6,38 @@
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-around;
-    padding-top: 2%;
+    padding-top: 5%;
     align-items: center;
     padding-left: 20%;
     padding-right: 20%;
 }
 
+h2 {
+    font-size: 250%;
+}
+
 #form {
-    display: flexbox;
+    display: flex;
     font-family: 'Manrope', sans-serif;
     align-items: center;  
-    justify-content: right;
+    justify-content: center;
     align-self: center;  
     flex-direction: column; 
 }
 
 input {
     border: none; 
-    width: 200px;
-    margin: 3%;
+    width: 300px;
+    height: 30px;
+    margin: 6%;
+}
+
+textarea {
+    font-family: 'Manrope', sans-serif;
+    overflow-wrap: break-word;
+    width: 300px;
+    height: 100px;
+    margin: 6%;
 }
 
 button {
@@ -37,6 +50,7 @@ button {
     color:black;
     width: 80px;
     height: 30px;
+    margin-top: 6%;
 }
 
 button:hover {
