@@ -37,12 +37,13 @@ function Form() {
             type='email'
             placeholder='Email'
         />
-        <input
+        <textarea
             value={message}
             name='message'
             onChange={handleInputChange}
             type='text'
-            placeholder='Message'
+            placeholder='Write Your Message Here'
+            id='message'
         />
         <button type='button' onClick={handleFormSubmit}>Submit</button>
         </form>
@@ -52,7 +53,7 @@ function Form() {
 
 function Contact() {
     return (
-        <article class="flexboxcontainer3" id="contact">
+        <article className="flexboxcontainer3" id="contact">
       <div>
          <h2>Reach Out</h2>
       </div>
