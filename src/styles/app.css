@@ -1,0 +1,48 @@
+/*--------- Responsive Elements Phone ---------*/
+
+@media screen and (max-width: 576px) {
+    nav {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flexboxcontainer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+   
+    #aboutme {
+    order: 2;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    flex: 1 1 200;
+    }
+
+    #headshot-image {
+        border-bottom: #783D19 2px solid;
+    }
+
+    .flexboxcontainer6 {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+    
+    #horiseon-website {
+        margin-top: 7%;
+    }
+    
+    .centered {
+        margin-bottom: 10%;
+    }
+    
+
+    .flexboxcontainer3 {
+        flex-direction: column;
+    }
+}
