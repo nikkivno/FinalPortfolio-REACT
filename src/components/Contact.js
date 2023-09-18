@@ -18,17 +18,18 @@ function Form() {
         }
     };
     const handleFormSubmit = (e) => {
-        e.preventDefualt();
+        e.preventDefault();
     };
 
     return (
-        <form id="form">
+        <form id="form" onSubmit={handleFormSubmit}>
         <input
             value={fullName}
             name="fullName"
             onChange={handleInputChange}
             type='text'
             placeholder='Full Name'
+            required
         />
         <input
             value={email}
@@ -36,6 +37,7 @@ function Form() {
             onChange={handleInputChange}
             type='email'
             placeholder='Email'
+            required
         />
         <textarea
             value={message}
@@ -44,8 +46,9 @@ function Form() {
             type='text'
             placeholder='Write Your Message Here'
             id='message'
+            required
         />
-        <button type='button' onClick={handleFormSubmit}>Submit</button>
+        <button type='submit'>Submit</button>
         </form>
     )
 
