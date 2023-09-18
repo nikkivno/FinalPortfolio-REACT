@@ -1,0 +1,87 @@
+
+.flexboxcontainer2 {
+    background: #36454F;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 2%;   
+}
+
+.flexboxcontainer6{
+    display: flex;
+    background-color: #36454F;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexboxcontainer4 {
+    display: flexbox; 
+    padding-top: 2%;  
+}
+
+#comingsoon1 {
+    width: 250px;
+    height: 350px;    
+    border-radius: 10%;
+    position: relative;
+    text-align: center;
+}
+
+#budget-website-image {
+    width: 265px;
+    border-radius: 10%;
+    align-items: center; 
+    position: relative;
+    text-align: center;
+}
+
+#horiseon-website {
+    width: 250px;
+    border-radius: 10%;
+    align-items: center; 
+    position: relative;
+    text-align: center;
+}
+
+#horiseon-website-image {
+    width: 265px;
+    border-radius: 10%;
+    align-items: center; 
+    position: relative;
+    text-align: center;
+}
+
+#mapbrew-website-image {
+    width: 265px;
+    border-radius: 10%;
+    align-items: center; 
+    position: relative;
+    text-align: center;
+}
+
+
+
+.centered {
+    color: whitesmoke;
+    position: relative;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+/*--------- Portfolio Link Attributes ---------*/
+
+#horiseon-website-image:hover {
+    box-shadow: #783D19 10px 10px 10px;
+}
+
+#budget-website-image:hover {
+    box-shadow: #783D19 10px 10px 10px;
+}
+
+#mapbrew-website-image:hover {
+    box-shadow: #783D19 10px 10px 10px;
+}
