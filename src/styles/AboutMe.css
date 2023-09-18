@@ -24,6 +24,7 @@
 }
 
 #headshot-image {
-    width: 100%;
+    margin-left: 20%;
+    width: 65%;
     bottom: 0;
 }
