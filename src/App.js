@@ -1,10 +1,16 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
 
 function App() {
     return (
         <div>
-            <Navbar />        
+            <Navbar />   
+            <Header />
+            <AboutMe />    
+            <Contact />
         </div>
     );
 }
