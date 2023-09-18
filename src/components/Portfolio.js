@@ -7,7 +7,7 @@ function Portfolio() {
         <div class="flexboxcontainer4">
           <h2>My Work</h2>
         </div>
-        <div class="flexboxcontainer6">
+        {/* <div class="flexboxcontainer6">
           <div id="budget-website">
             <a href="https://nikkivno.github.io/BudgetingWebsite-BootcampProject1/"><img id="budget-website-image" src="Assets/Images/budgetexample.png" alt="Link to BudgetSense Website"></a>
           <div class="centered"> BudgetSense Webpage</div>
@@ -22,8 +22,10 @@ function Portfolio() {
           </div>
           </div>  
         </div>
-        </div>     
-    </article>
+        </div>      */}
+    // </article>
     );
 }
+
+export default Portfolio;
 
