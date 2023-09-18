@@ -21,3 +21,14 @@ nav li {
     display: inline-block;
     color: whitesmoke;   
 }
+
+/*--------- nav link attributes ---------*/
+
+a:link {
+    text-decoration: none;
+    }
+    
+    a:hover {
+     color: black;
+     text-decoration:overline;
+    }
