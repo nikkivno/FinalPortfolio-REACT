@@ -4,6 +4,9 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+import './styles/app.css';
 
 function App() {
     let Component 
@@ -26,6 +29,7 @@ function App() {
             <Navbar />   
             <Header />
             <Component />
+            <Footer />
         </div>
     );
 }
