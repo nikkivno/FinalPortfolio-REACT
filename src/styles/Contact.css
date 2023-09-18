@@ -1,0 +1,44 @@
+
+.flexboxcontainer3 {
+    display: flex;
+    position: relative;
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 2%;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#form {
+    display: flexbox;
+    font-family: 'Manrope', sans-serif;
+    align-items: center;  
+    justify-content: right;
+    align-self: center;  
+    flex-direction: column; 
+}
+
+input {
+    border: none; 
+    width: 200px;
+    margin: 3%;
+}
+
+button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 100;
+    border-radius: 10%;
+    border-color: black;
+    border-style: solid;
+    background: whitesmoke;
+    color:black;
+    width: 80px;
+    height: 30px;
+}
+
+button:hover {
+    background: #783D19;
+}
