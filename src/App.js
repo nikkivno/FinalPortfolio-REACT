@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
+import Project from './components/Project'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -19,7 +20,7 @@ function App() {
                 Component = AboutMe
                 break
                 case "/portfolio":
-                    Component = Portfolio
+                    Component = Project
                     break
                     case "/contact":
                         Component = Contact

@@ -1,0 +1,69 @@
+/* Container styles */
+.container {
+    position: relative;
+    /* overflow: hidden; */
+    width: 400px;
+  }
+
+  h1 {
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  /* Image styles */
+  #image {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  /* Overlay styles */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Hidden text styles */
+  .hidden-text {
+    display: none;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* GitHub icon styles */
+  .github {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for the image */
+  .container:hover #image {
+    filter: brightness(0.8); /* Darken the image */
+  }
+  
+  /* Hover effect for the overlay */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Show hidden text and GitHub icon on hover */
+  .container:hover .hidden-text {
+    display: block;
+  }
+  
+  .container:hover .github {
+    opacity: 1;
+  }
+  
+  

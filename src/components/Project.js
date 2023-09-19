@@ -1,52 +1,18 @@
 import React, {useState} from 'react';
 import Portfolio from './Portfolio';
-import'../styles/Portfolio.css';
+import'../styles/Project.css';
+
+import {projects} from '../Data';
+
 
 const Project = () => {
-const [projects] = useState([
-      {
-        title: 'Mapbrew',
-        imageSrc: './images/mpabrewexample.png',
-        websiteUrl: 'https://mapbrew-websitee-20a575919a4b.herokuapp.com/login',
-        githubUrl: 'https://github.com/YggdrasilJL/mapbrew-haven',
-      },
-      // {
-      //   title: 'Project 1',
-      //   imageSrc: 'project1.jpg',
-      //   websiteUrl: 'https://www.example.com/project1',
-      //   githubUrl: 'https://github.com/yourusername/project1',
-      // },
-      // {
-      //   title: 'Project 1',
-      //   imageSrc: 'project1.jpg',
-      //   websiteUrl: 'https://www.example.com/project1',
-      //   githubUrl: 'https://github.com/yourusername/project1',
-      // },
-      // {
-      //   title: 'Project 1',
-      //   imageSrc: 'project1.jpg',
-      //   websiteUrl: 'https://www.example.com/project1',
-      //   githubUrl: 'https://github.com/yourusername/project1',
-      // },
-      // {
-      //   title: 'Project 1',
-      //   imageSrc: 'project1.jpg',
-      //   websiteUrl: 'https://www.example.com/project1',
-      //   githubUrl: 'https://github.com/yourusername/project1',
-      // },
-      // {
-      //   title: 'Project 1',
-      //   imageSrc: 'project1.jpg',
-      //   websiteUrl: 'https://www.example.com/project1',
-      //   githubUrl: 'https://github.com/yourusername/project1',
-      // },
-]);
+console.log(projects);
 
 return (
   <div>
-    {projects.map((project, index) => (
+    {projects.map((project) => (
       <Portfolio
-      key={index}
+      key={''}
       title={project.title}
       imageSrc={project.imageSrc}
       githubUrl={project.githubUrl}
