@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareGitlab } from '@fortawesome/free-brands-svg-icons';
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -12,7 +12,7 @@ function Footer() {
             <div className="icons">
                 <div id="github">
                     <a href="https://github.com/nikkivno" target="_blank">
-                        <FontAwesomeIcon icon={faSquareGitlab} size="2xl" style={{color: "#36454f",}} />
+                        <FontAwesomeIcon icon={faSquareGithub} size="2xl" style={{color: "#36454f",}} />
                     </a>
                 </div>
                 <div id="linkedIn">
