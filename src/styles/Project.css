@@ -19,6 +19,7 @@
   
   /* Overlay styles */
   .overlay {
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -43,6 +44,7 @@
   
   /* GitHub icon styles */
   .github {
+    pointer-events: auto;
     text-decoration: none;
     color: white;
     transition: opacity 0.3s ease-in-out;
