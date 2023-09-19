@@ -21,7 +21,7 @@ function Footer() {
                     </a>
                 </div>
                 <div id="instagram">
-                    <a href="https://www.instagram.com/nikki.v.reads/" target="_blank">
+                    <a href="https://www.instagram.com/byobookpodcast/" target="_blank">
                         <FontAwesomeIcon icon={faSquareInstagram} size="2xl" style={{color: "#36454f",}} />
                     </a>
                 </div>
