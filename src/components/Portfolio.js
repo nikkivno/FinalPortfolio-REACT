@@ -7,7 +7,8 @@ import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 
-const Portfolio = ({title, imageSrc, githubUrl, websiteUrl}) => {
+const Portfolio = ({projects}) => {
+  const {title, imageSrc, githubUrl, websiteUrl} = projects;
   return(
     <div>
       <div className='title'>

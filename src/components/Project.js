@@ -1,10 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Portfolio from './Portfolio';
 import'../styles/Portfolio.css';
 
-
 const Project = () => {
-  const projects = [
+const [projects] = useState([
       {
         title: 'Mapbrew',
         imageSrc: './images/mpabrewexample.png',
@@ -41,7 +40,7 @@ const Project = () => {
       //   websiteUrl: 'https://www.example.com/project1',
       //   githubUrl: 'https://github.com/yourusername/project1',
       // },
-];
+]);
 
 return (
   <div>
@@ -56,7 +55,6 @@ return (
     ))};
   </div>
 );
-
 };
 
 export default Project;
