@@ -1,18 +1,30 @@
 /* Container styles */
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
 .container {
     position: relative;
     /* overflow: hidden; */
-    width: 400px;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding-top: 20px;
   }
 
-  h1 {
+  .container h1 {
     font-family: 'Manrope', sans-serif;
+    font-size: large;
   }
   
   /* Image styles */
   #image {
     width: 100%;
-    height: auto;
+    height: 400px;
     transition: filter 0.3s ease-in-out;
     border-radius: 10px;
   }

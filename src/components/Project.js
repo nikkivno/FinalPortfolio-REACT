@@ -9,7 +9,7 @@ const Project = () => {
 console.log(projects);
 
 return (
-  <div>
+  <div className='flexbox'>
     {projects.map((project) => (
       <Portfolio
       key={''}

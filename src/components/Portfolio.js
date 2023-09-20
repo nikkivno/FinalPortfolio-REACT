@@ -17,7 +17,6 @@ const Portfolio = ({title, imageSrc, githubUrl, websiteUrl}) => {
       <div className='hidden-text'>
         <h1>{title}</h1>
       </div>
-
       <div className='hidden-text'>
         <a href={githubUrl} target="_blank" className="github"><FontAwesomeIcon icon={faSquareGithub} size="2xl" style={{color: "#36454f",}}/></a>
       </div>    
