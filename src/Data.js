@@ -7,6 +7,7 @@ import fantasyquiz from './images/fantasyquiz.png';
 import notetaker from './images/noteTaker.png'
 
 
+
 export const projects = [
     {
         title: 'Mapbrew',
