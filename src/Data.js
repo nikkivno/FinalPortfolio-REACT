@@ -4,11 +4,18 @@ import budgetsense from './images/budgetexample.png';
 import horiseon from './images/websiteexample.png';
 import weatherapp from './images/weatherwatcher.png';
 import fantasyquiz from './images/fantasyquiz.png';
-import notetaker from './images/noteTaker.png'
+import notetaker from './images/noteTaker.png';
+import writersroom from './images/writersroomexample.png';
 
 
 
 export const projects = [
+    {
+        title: 'Writers Room',
+        imageSrc: writersroom,
+        websiteUrl: 'https://writers-room-2023-1fe71a40c61d.herokuapp.com/',
+        githubUrl: 'https://github.com/nikkivno/WritersRoom-Project3',
+    },
     {
         title: 'Mapbrew',
         imageSrc: mapbrew,
