@@ -28,3 +28,20 @@
     width: 65%;
     bottom: 0;
 }
+
+/*--------- Responsive Elements Phone  --------- */
+
+@media screen and (max-width: 576px) {
+#aboutme {
+    order: 2;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    flex: 1 1 200;
+    margin-bottom: 100px;
+    }
+
+    #headshot-image {
+        border-bottom: #783D19 2px solid;
+    }
+}

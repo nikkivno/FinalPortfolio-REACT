@@ -37,3 +37,25 @@ a:link {
     color: black;
     text-decoration:overline;
 }
+
+/*--------- Responsive Elements Phone  --------- */
+
+@media screen and (max-width: 576px) {
+    nav {
+        display: flex;
+        text-align: center;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: no-wrap;
+        align-items: center;
+    }
+
+    li {
+        width: 70px;
+        box-sizing: border-box;
+        margin: 0 10px;
+    }
+}

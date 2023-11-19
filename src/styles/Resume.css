@@ -58,3 +58,27 @@ ul {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 576px) {
+    .pagebreak {
+        width: 100%;
+        margin: 0;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
+    ul li {
+        width: 100%;
+    }
+
+    .experience {
+        margin: 0;
+    }
+
+    .education {
+        margin: 0;
+    }
+}
+
