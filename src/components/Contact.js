@@ -17,7 +17,6 @@ function Form() {
         });
     };
 
-
     return (
         <form ref={form} id='form' onSubmit={sendEmail}>
           <input type="text" name="user_name" placeholder='Full Name'/>
@@ -26,38 +25,6 @@ function Form() {
           <input type="submit" className='sendButton' value="Send" />
         </form>
       );
-
-    // return (
-    //     <form id="form" onSubmit={sendEmail}>
-    //     <input
-    //         value={fullName}
-    //         name="user_name"
-    //         onChange={handleInputChange}
-    //         type='text'
-    //         placeholder='Full Name'
-    //         required
-    //     />
-    //     <input
-    //         value={email}
-    //         name='user_email'
-    //         onChange={handleInputChange}
-    //         type='email'
-    //         placeholder='Email'
-    //         required
-    //     />
-    //     <textarea
-    //         value={message}
-    //         name='message'
-    //         onChange={handleInputChange}
-    //         type='text'
-    //         placeholder='Write Your Message Here'
-    //         id='message'
-    //         required
-    //     />
-    //     <button type='submit'>Submit</button>
-    //     </form>
-    // )
-
 }
 
 function Contact() {
