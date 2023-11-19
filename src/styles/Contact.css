@@ -40,10 +40,10 @@ textarea {
     margin: 6%;
 }
 
-button {
+.sendButton {
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
-    border-radius: 10%;
+    border-radius: 10px;
     border-color: black;
     border-style: solid;
     background: whitesmoke;
@@ -53,6 +53,6 @@ button {
     margin-top: 6%;
 }
 
-button:hover {
+.sendButton:hover {
     background: #783D19;
 }

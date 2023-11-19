@@ -1,0 +1,49 @@
+.info {
+    text-align: center;
+}
+
+.pagebreak {
+    border-top: solid white 1px;
+    margin: 0 300px 0 300px;
+}
+
+ul {
+    color: white;
+    margin-left: 300px;
+    font-family: 'Manrope', sans-serif;
+}
+
+ .experience {
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.dates {
+    font-weight: bolder;
+}
+
+.education {
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download {
+    margin-top: 0;
+    margin-bottom: 150px;
+    width: 300px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+
+a {
+    color: white;
+}

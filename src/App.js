@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe';
 import Project from './components/Project'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 import './styles/app.css';
 
@@ -21,6 +22,8 @@ function App() {
                     case "/contact":
                         Component = Contact
                         break
+                        case "/resume":
+                            Component = Resume
     }
     return (
         <div>
