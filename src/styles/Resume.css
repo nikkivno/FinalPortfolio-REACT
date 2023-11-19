@@ -42,8 +42,19 @@ ul {
     border-radius: 10px;
     border: none;
     font-size: medium;
+    font-family: 'Manrope', sans-serif;
 }
 
-a {
+.download:hover {
+    background-color: #783D19;
+    color: black;
+}
+
+.download a {
     color: white;
 }
+
+.download a:hover {
+    text-decoration: none;
+}
+
