@@ -16,7 +16,7 @@ function Footer() {
                     </a>
                 </div>
                 <div id="linkedIn">
-                    <a href="https://www.linkedin.com/in/nikki-vigneault-69a054279/" target="_blank">
+                    <a href="https://www.linkedin.com/in/nicole-vigneault-69a054279/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} size="2xl" style={{color: "#35454f",}} />    
                     </a>
                 </div>
