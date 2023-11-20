@@ -25,6 +25,7 @@
     "@mui/styled-engine-sc": "^5.14.10",
     "axios": "^1.5.0",
     "bootstrap": "^5.3.1",
+    "npm": "^10.2.4",
     "npx": "^10.2.2",
     "path-browserify": "^1.0.1",
     "react": "^17.0.2",
@@ -34,8 +35,7 @@
     "web-vitals": "^2.1.4"
   },
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "18.x"
   },
   "eslintConfig": {
     "extends": [
