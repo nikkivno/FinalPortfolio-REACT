@@ -1,7 +1,7 @@
 
 import mapbrew from './images/Mapbrew.png';
 import budgetsense from './images/Budgetsense.png';
-import weatherapp from './images/WeatherWatcher.png';
+import weatherapp from './images/WeatherApp.png';
 import fantasyquiz from './images/Fantasy Quiz.png';
 import notetaker from './images/NoteTaker.png';
 import writersroom from './images/writersroom.png';
