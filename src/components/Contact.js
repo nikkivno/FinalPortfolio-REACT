@@ -35,7 +35,7 @@ function Contact() {
       <div>
          <h2>Reach Out</h2>
       </div>
-      <div>
+      <div className='contactform'>
         <Form />
       </div>
     </article>
