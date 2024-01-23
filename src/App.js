@@ -11,7 +11,7 @@ import Resume from './components/Resume';
 import './styles/app.css';
 
 function App() {
-    let Component 
+    let Component; 
     switch (window.location.pathname) {
             case "/":
                 Component = AboutMe
@@ -24,6 +24,9 @@ function App() {
                         break
                         case "/resume":
                             Component = Resume
+                            break
+                            default:
+                                Component = AboutMe;
     }
     return (
         <div>
