@@ -11,17 +11,17 @@ function Footer() {
         <footer>
             <div className="icons">
                 <div id="github">
-                    <a href="https://github.com/nikkivno" target="_blank">
+                    <a href="https://github.com/nikkivno" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faSquareGithub} size="2xl" style={{color: "#36454f",}} />
                     </a>
                 </div>
                 <div id="linkedIn">
-                    <a href="https://www.linkedin.com/in/nicole-vigneault-69a054279/" target="_blank">
+                    <a href="https://www.linkedin.com/in/nicole-vigneault-69a054279/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2xl" style={{color: "#35454f",}} />    
                     </a>
                 </div>
                 <div id="instagram">
-                    <a href="https://www.instagram.com/byobookpodcast/" target="_blank">
+                    <a href="https://www.instagram.com/byobookpodcast/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faSquareInstagram} size="2xl" style={{color: "#36454f",}} />
                     </a>
                 </div>
