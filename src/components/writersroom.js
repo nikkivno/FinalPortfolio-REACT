@@ -13,12 +13,12 @@ function WritersRoom () {
             <h2 id="writertitle">Writer's Room Website Samples</h2>
             <p id="writerparagraph">Full website will be online soon</p>  
             <div className="webimages">
-                <img src={maingif} alt="GIF of Writer's Room 'Main' Page"/>
-                <img src={writerlogin} alt="Writer's Room 'Login' Page"/>
-                <img src={writerongoing} alt="Writer's Room 'Ongoing Work' page"/>  
-                <img src={writerprompt} alt="Writer's Room 'Prompt' Page"/>
-                <img src={writerstep2} alt="Writer's Room 'Step 2' Page"/>
-                <img src={writerwriting} alt="Writer's Room 'Writing' Page"/>
+                <img className="wrimg" src={maingif} alt="GIF of Writer's Room 'Main' Page"/>
+                <img className="wrimg" src={writerlogin} alt="Writer's Room 'Login' Page"/>
+                <img className="wrimg" src={writerongoing} alt="Writer's Room 'Ongoing Work' page"/>  
+                <img className="wrimg" src={writerprompt} alt="Writer's Room 'Prompt' Page"/>
+                <img className="wrimg" src={writerstep2} alt="Writer's Room 'Step 2' Page"/>
+                <img className="wrimg" src={writerwriting} alt="Writer's Room 'Writing' Page"/>
             </div>          
         </>
     )
