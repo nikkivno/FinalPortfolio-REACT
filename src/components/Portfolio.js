@@ -4,7 +4,7 @@ import './Project';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { Link } from 'react-router-dom';
 
 
 const Portfolio = ({title, imageSrc, githubUrl, websiteUrl}) => {

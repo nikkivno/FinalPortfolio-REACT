@@ -7,6 +7,7 @@ import Project from './components/Project'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import WritersRoom from './components/writersroom';
 
 import './styles/app.css';
 
@@ -27,6 +28,9 @@ function App() {
                             break
                             default:
                                 Component = AboutMe;
+                                break
+                                case "/writersroom":
+                                    Component = WritersRoom;
     }
     return (
         <div>
