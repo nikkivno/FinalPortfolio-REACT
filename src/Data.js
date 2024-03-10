@@ -5,7 +5,6 @@ import fantasyquiz from './images/Fantasy Quiz.png';
 import notetaker from './images/noteTaker.png';
 import writersroom from './images/writersroom.png';
 import d3samples from './images/D3.js Example Site.png';
-import {Link} from 'react-router';
 
 
 
